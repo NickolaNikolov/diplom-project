@@ -11,7 +11,7 @@ const HomePage = () => {
             <header className="hero">
                 <h1 className="hero-text">
                     Hi, I am
-                    <span>Nikola Nikolov</span>
+                    <span> Nikola Nikolov</span>
                 </h1>
                 <p className="home-p">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -21,13 +21,13 @@ const HomePage = () => {
                 </p>
                 <div className="icons">
                     <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faFacebook} className="icon"/>
+                        <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
                     </Link>
                     <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faGithub} className="icon"/>
+                        <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                     </Link>
                     <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faSkype} className="icon"/>
+                        <FontAwesomeIcon icon={faSkype} className="icon sk"/>
                     </Link>
                 </div>
             </header>
