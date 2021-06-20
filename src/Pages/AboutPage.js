@@ -2,6 +2,10 @@ import React from 'react';
 import Title from '../Components/Title';
 import ImageSection from '../Components/ImageSection';
 import SkillsSection from '../Components/SkillsSection';
+import ServicesSection from '../Components/ServicesSection';
+import design from '../img/design.svg';
+import intelligence from '../img/intelligence.svg';
+import gamedev from '../img/game-dev.svg';
 
 const AboutPage = () => {
     return (
@@ -19,8 +23,17 @@ const AboutPage = () => {
                 <SkillsSection skill={'HTML'} progress={'94%'} width={'94%'} />
                 <SkillsSection skill={'UI / UX design'} progress={'45%'} width={'45%'} />
             </div>
+            <Title title={'Services'} span={'Services'}/>
             <div class="services-container">
-                
+                <ServicesSection image={design} title={'Web design'} 
+                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                />
+                <ServicesSection image={intelligence} title={'Artificial Int.'} 
+                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                />
+                <ServicesSection image={gamedev} title={'Game Dev.'} 
+                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                />
             </div>
         </div>
     );
