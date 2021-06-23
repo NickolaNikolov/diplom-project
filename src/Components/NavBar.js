@@ -13,22 +13,22 @@ const NavBar = () => {
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
-                            Home
+                            Начало
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/about" exact activeClassName="active">
-                            About
+                            Информация
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/solution" exact activeClassName="active">
-                            Solution
+                            Решението
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
-                            Contact
+                            Контакти
                         </NavLink>
                     </li>
                 </ul>
