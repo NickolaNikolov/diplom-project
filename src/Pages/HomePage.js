@@ -4,12 +4,14 @@ import Title from '../Components/Title';
 const HomePage = () => {
     return (
         <div className="HomePage">
-            <Title title={'Начало'} span={'Начало'}/>
+            <div class="title">
+                <Title title={'Начало'} span={'Начало'}/>
+            </div>
             <header className="hero">
-                <h2 className="hero-text">
+                <h1 className="hero-text">
                     <span>Оптимално разпределение на капиталовложения </span>
                     на високотехлогична компания 
-                </h2>
+                </h1>
                 <p className="home-p">
                     В днешно време повече бизнеси фалират, отколкото да
                     процъфтяват. Разработил съм приложение, чрез което ще

@@ -4,19 +4,28 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
+    padding: 7rem;
 }
 
 .hero-text{
     color: white;
     text-align: center;
     font-size: 3rem;
-    margin-top: 1.5rem;
+    position: relative;
+    bottom: 50px;
     span{
         color: #037FFF;
     }
 }
 
 .home-p{
+    text-align: center;
+    margin-top: 5rem;
+    position: relative;
+    bottom: 80px;
+}
+
+.about-p{
     text-align: center;
     margin-top: 5rem;
 }
