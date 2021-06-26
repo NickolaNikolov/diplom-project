@@ -32,7 +32,7 @@ const NavBar = () => {
                         </NavLink>
                     </li>
                 </ul>
-                    <footer class="footer">
+                    <footer className="footer">
                         <p>
                             @2021 Tu-Sofia
                         </p>
